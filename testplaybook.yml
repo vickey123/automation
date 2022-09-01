@@ -3,3 +3,6 @@
    tasks:
      - name: update packages for testing
        shell: sudo yum update -y
+
+     - name: install git
+       shell: sudo yum install git -y
